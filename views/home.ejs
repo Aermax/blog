@@ -6,7 +6,7 @@
         <% let string = post.content.substring(0,100) %> 
         <p>
             <%= string + "..."%>
-            <a href="/posts/<%= post.title %> ">Read more</a>
+            <a href="/posts/<%= post._id %> ">Read more</a>
         </p>
     <% }) %>
 
